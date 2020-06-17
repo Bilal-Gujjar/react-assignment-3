@@ -1,13 +1,14 @@
 import React from 'react';
+import './App.css';
+import Dinner from './dinner'
 
 
 function App() {
-  return <div>
-    <h1>Hello World by Bilal-Gujjar</h1>
-    <br/>
-    <hr></hr>
-     <h2>Test Again</h2>
+  return (
+    <div className="App">
+      <Dinner a="This is Parent element" b = "This is a child element"/>
   </div>
+  )
 }
 
 export default App;
